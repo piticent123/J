@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/Executor.java" line="27" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80dd57ec-1753-4984-a41c-32877944b74b" name="Default Changelist" comment="" />
+    <list default="true" id="80dd57ec-1753-4984-a41c-32877944b74b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lombok.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lombok.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/ExecutionPipelines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/ExecutionPipelines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/Flag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/Flag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/J.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/J.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/META-INF/J.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/META-INF/J.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/compiler/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/compiler/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/compiler/LCompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/compiler/LCompiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Function$Call.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Function$Call.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Function.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/HCompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/HCompiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Variable$Reference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Variable$Reference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Variable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/parser/JParsingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/JParsingInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/parser/tokens/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/tokens/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J/parser/tokens/ReservedWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/tokens/ReservedWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecutionPipelines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecutionPipelines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/J.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/LCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/LCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/HCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/HCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intermediary/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/JParsingInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/JParsingInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/tokens/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/tokens/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/tokens/ReservedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/tokens/ReservedWord.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/J.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="297">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="140">
               <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,13 +103,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="99">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intermediary/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="224">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intermediary/HCompiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="140">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,6 +195,9 @@
       <find>string</find>
       <find>string</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -227,11 +280,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="" />
@@ -295,17 +349,18 @@
       <workItem from="1562005163713" duration="50000" />
       <workItem from="1562005237973" duration="3676000" />
       <workItem from="1562088629276" duration="2457000" />
+      <workItem from="1562179156667" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28169000" />
+    <option name="totallyTimeSpent" value="30293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07462686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.075159915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,8 +370,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32502708" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3217768" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39587852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -358,7 +413,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/J.java</url>
-          <line>18</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -367,11 +422,24 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="newLine" language="JAVA" />
+        <watch expression="tmpDirectory.getFileName()" language="JAVA" />
+        <watch expression="((WindowsPath) tmpDirectory).getAbsolutePath()" language="JAVA" custom="sun.nio.fs.WindowsPath" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>((WindowsPath) tmpDirectory).getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>sun.nio.fs.WindowsPath</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tmpDirectory.getFileName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>newLine</expression-string>
         <language-id>JAVA</language-id>
@@ -532,6 +600,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediary/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intermediary/HCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/intermediary/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -560,42 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intermediary/HCompiler.java">
+    <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intermediary/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="323">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,20 +672,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/J.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="297">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="99">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>

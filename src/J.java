@@ -5,15 +5,12 @@ import intermediary.Program;
 import parser.Parser;
 import parser.Token;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class J {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		String flags = args.length > 0 ? args[0].toLowerCase() : "";
 
 //		InputStream input;
