@@ -4,22 +4,24 @@ import intermediary.Program;
 import intermediary.Variable;
 
 public class LCompiler {
+	private String[] registers = new String[]{};
+
 	public String Compile(Program p) {
 		return String.join("\n", "",
-			"global _start",
-			"section .data",
-			"    jv_hello_world: db \"hello, world!\", 0xA, 0x0",
-			"    len: equ $ - jv_hello_world",
+				".data",
+				"    .string \"hello, world!\"",
 //			"section .bss",
-			"section .text",
-			"    _start:",
-			"        mov eax, 4",
-			"        mov ebx, 1",
-			"        mov ecx, jv_hello_world",
-			"        mov edx, len",
-			"        int 0x80",
-			"        mov eax, 1",
-			"        int 0x80");
+				".text",
+				"    .globl main",
+				"    main:",
+				"		 pushq %rbp",
+				"        movq %rsp, %rbp",
+				"        leaq .data(%rip), %rdi",
+				"        call puts@PLT",
+				"        movq $0, %rax",
+				"        popq %rbp",
+				"        ret",
+				"");
 	}
 
 	private String getDataType(Variable variable) {

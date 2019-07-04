@@ -15,20 +15,24 @@ public class Executor {
 	}
 
 	private String getPath(String f) {
-		return new File(tmpDirectory.toFile(), f).getAbsolutePath();
+		return new File(tmpDirectory.toFile(), f).getAbsolutePath()
+				.replace("C:\\", "/mnt/c/")
+				.replace("\\", "/");
 	}
 
-	public void Execute(String assembly) {
+	public void Execute(String assembly) throws InterruptedException {
 		try {
-			Path tmpFile = createTempFile(tmpDirectory.toAbsolutePath(), "j-code-", ".s");
-			BufferedWriter writer = new BufferedWriter(new FileWriter(tmpFile.toFile()));
+			File tmpFile = File.createTempFile("j-code-", ".s", tmpDirectory.toFile());
+//			tmpFile.deleteOnExit();
+//			tmpDirectory.toFile().deleteOnExit();
+
+			BufferedWriter writer = new BufferedWriter(new FileWriter(tmpFile));
 			writer.write(assembly);
 			writer.close();
 
-			Runtime.getRuntime().exec(new String[]{
-				"gcc -o " + getPath("j-binary") + " " + tmpFile.toAbsolutePath().toString(),
-				getPath("j-binary")
-			});
+			new ProcessBuilder().command("bash", "-c",
+				"gcc -o " + getPath("j-binary") + " " + getPath(tmpFile.getName()) + " && " + getPath("j-binary"))
+				.inheritIO().start().waitFor();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

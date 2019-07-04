@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class J {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		String flags = args.length > 0 ? args[0].toLowerCase() : "";
 
 //		InputStream input;

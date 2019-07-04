@@ -1,54 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/Executor.java" line="27" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="80dd57ec-1753-4984-a41c-32877944b74b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lombok.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/ExecutionPipelines.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/ExecutionPipelines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/Flag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/Flag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/J.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/J.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/META-INF/J.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/META-INF/J.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/compiler/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/compiler/Executor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/compiler/LCompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/compiler/LCompiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Function$Call.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Function$Call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Function.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/HCompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/HCompiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Variable$Reference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Variable$Reference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/intermediary/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/intermediary/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/JParsingInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/JParsingInputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/tokens/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/tokens/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/tokens/ReservedWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/tokens/ReservedWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExecutionPipelines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecutionPipelines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/J.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compiler/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compiler/LCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/LCompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/HCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/HCompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediary/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediary/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/JParsingInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/JParsingInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/tokens/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/tokens/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/tokens/ReservedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/tokens/ReservedWord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,32 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/J.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="287">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,14 +38,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
+        <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/parser/Token.java" />
         <option value="$PROJECT_DIR$/src/intermediary/HCompiler.java" />
         <option value="$PROJECT_DIR$/src/intermediary/Variable.java" />
-        <option value="$PROJECT_DIR$/src/compiler/LCompiler.java" />
         <option value="$PROJECT_DIR$/src/J.java" />
         <option value="$PROJECT_DIR$/src/compiler/Executor.java" />
+        <option value="$PROJECT_DIR$/src/compiler/LCompiler.java" />
       </list>
     </option>
   </component>
@@ -231,17 +175,16 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="928" />
+    <option name="x" value="353" />
     <option name="y" value="-27" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,16 +215,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="J" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +233,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -350,17 +290,20 @@
       <workItem from="1562005237973" duration="3676000" />
       <workItem from="1562088629276" duration="2457000" />
       <workItem from="1562179156667" duration="2124000" />
+      <workItem from="1562193091850" duration="94000" />
+      <workItem from="1562193251618" duration="568000" />
+      <workItem from="1562193840003" duration="6903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30293000" />
+    <option name="totallyTimeSpent" value="37858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.075159915" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28439426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +313,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3217768" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32155073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39587852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +326,7 @@
       <window_info anchor="bottom" id="GraphQL" order="12" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3264642" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32611173" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,6 +341,45 @@
       <window_info anchor="right" id="Flutter Outline" order="11" />
       <window_info anchor="right" id="SciView" order="12" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28439426" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32155073" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39587852" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="GraphQL" order="12" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32611173" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Cargo" order="9" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" />
+      <window_info anchor="right" id="SciView" order="12" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -448,87 +430,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="211" column="37" selection-start-line="211" selection-start-column="30" selection-end-line="211" selection-end-column="37" />
-          <folding>
-            <element signature="docComment;class#FileInputStream#0" />
-            <element signature="n#!!doc;n#fd#0;n#FileInputStream#0" />
-            <element signature="docComment;field#path#0;class#FileInputStream#0" />
-            <element signature="docComment;method#FileInputStream#0;class#FileInputStream#0" />
-            <element signature="method#FileInputStream#0;class#FileInputStream#0" />
-            <element signature="docComment;method#FileInputStream#1;class#FileInputStream#0" />
-            <element signature="method#FileInputStream#1;class#FileInputStream#0" />
-            <element signature="e#5022#5071#1" />
-            <element signature="e#5098#5155#1" />
-            <element signature="e#5186#5263#1" />
-            <element signature="e#5446#5540#1" />
-            <element signature="docComment;method#FileInputStream#2;class#FileInputStream#0" />
-            <element signature="method#FileInputStream#2;class#FileInputStream#0" />
-            <element signature="e#6947#7004#1" />
-            <element signature="e#7035#7085#1" />
-            <element signature="e#7165#7294#0" />
-            <element signature="docComment;method#open0#0;class#FileInputStream#0" />
-            <element signature="docComment;method#open#0;class#FileInputStream#0" />
-            <element signature="method#open#0;class#FileInputStream#0" />
-            <element signature="docComment;method#read#0;class#FileInputStream#0" />
-            <element signature="method#read#0;class#FileInputStream#0" />
-            <element signature="docComment;method#readBytes#0;class#FileInputStream#0" />
-            <element signature="docComment;method#read#1;class#FileInputStream#0" />
-            <element signature="method#read#1;class#FileInputStream#0" />
-            <element signature="docComment;method#read#2;class#FileInputStream#0" />
-            <element signature="method#read#2;class#FileInputStream#0" />
-            <element signature="docComment;method#skip#0;class#FileInputStream#0" />
-            <element signature="method#skip#0;class#FileInputStream#0" />
-            <element signature="docComment;method#available#0;class#FileInputStream#0" />
-            <element signature="method#available#0;class#FileInputStream#0" />
-            <element signature="docComment;method#close#0;class#FileInputStream#0" />
-            <element signature="method#close#0;class#FileInputStream#0" />
-            <element signature="e#13555#13586#1" />
-            <element signature="e#13620#13722#0" />
-            <element signature="e#13646#13685#1" />
-            <element signature="e#13782#13935#1" />
-            <element signature="e#13796#13844#0" />
-            <element signature="class#13961:14077" />
-            <element signature="method#close#0;class#13961:14077" />
-            <element signature="docComment;method#getFD#0;class#FileInputStream#0" />
-            <element signature="method#getFD#0;class#FileInputStream#0" />
-            <element signature="e#14562#14596#1" />
-            <element signature="docComment;method#getChannel#0;class#FileInputStream#0" />
-            <element signature="method#getChannel#0;class#FileInputStream#0" />
-            <element signature="e#15398#16094#1" />
-            <element signature="e#15432#16084#0" />
-            <element signature="e#15501#16070#1" />
-            <element signature="e#15657#16052#1" />
-            <element signature="e#15687#15899#0" />
-            <element signature="e#15717#15760#0" />
-            <element signature="e#15924#16030#0" />
-            <element signature="initializer##0;class#FileInputStream#0" />
-            <element signature="docComment;method#finalize#0;class#FileInputStream#0" />
-            <element signature="method#finalize#0;class#FileInputStream#0" />
-            <element signature="docComment;class#AltFinalizer#0;class#FileInputStream#0" />
-            <element signature="class#AltFinalizer#0;class#FileInputStream#0" />
-            <element signature="n#!!doc;n#get#0;n#AltFinalizer#0;n#FileInputStream#0" />
-            <element signature="method#get#0;class#AltFinalizer#0;class#FileInputStream#0" />
-            <element signature="e#18499#18790#1" />
-            <element signature="e#18521#18644#0" />
-            <element signature="e#18926#18935#0" />
-            <element signature="method#finalize#0;class#AltFinalizer#0;class#FileInputStream#0" />
-            <element signature="e#19035#19475#0" />
-            <element signature="e#19108#19461#1" />
-            <element signature="e#19130#19410#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/InputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/FileInputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/ExecutionPipelines.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -554,13 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="10215" column="14" selection-start-line="10215" selection-start-column="14" selection-end-line="10215" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Character.java" />
     <entry file="file://$PROJECT_DIR$/src/Flag.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,10 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
+    <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="280">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -660,37 +557,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/JParsingInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/J.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="287">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/J.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="607">
+          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/compiler/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
