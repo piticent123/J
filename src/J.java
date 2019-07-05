@@ -1,32 +1,23 @@
-import compiler.Executor;
-import compiler.LCompiler;
-import intermediary.HCompiler;
-import intermediary.Program;
-import parser.Parser;
-import parser.Token;
+import cli.FlagList;
+import cli.Flags;
+import cli.Pipeline;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class J {
-	public static void main(String[] args) throws IOException, InterruptedException {
-		String flags = args.length > 0 ? args[0].toLowerCase() : "";
+	public static void main(String[] args) {
+		FlagList flags = Flags.parse(args);
+		InputStream input = findInput(flags);
 
-//		InputStream input;
-//		try {
-//			input = flags.contains(Flag.USE_FILE) ? new FileInputStream(args[0]) : new BufferedInputStream(System.in);
-//		} catch (FileNotFoundException e) {
-//			System.out.println("File " + args[0] + " does not exist.");
-//			return;
-//		} catch (IndexOutOfBoundsException e) {
-//			System.out.println("The -f flag was passed, but no file was provided");
-//			return;
-//		}
+		new Pipeline(args, input).fill();
+	}
 
-		List<Token> p1 = new ArrayList<>();//new Parser().Parse(input);
-		Program p2 = new HCompiler().Compile(p1);
-		String asm = new LCompiler().Compile(p2);
-		new Executor().Execute(asm);
+	private static InputStream findInput(FlagList flags) {
+		try {
+			return flags.isUseFile() ? new FileInputStream(flags.getFile()) : new BufferedInputStream(System.in);
+		} catch (FileNotFoundException e) {
+			System.out.println("File " + flags.getFile() + " does not exist. Using stdin instead");
+			return new BufferedInputStream(System.in);
+		}
 	}
 }

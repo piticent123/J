@@ -1,4 +1,4 @@
-package compiler;
+package cli;
 
 import java.io.BufferedWriter;
 import java.io.File;
