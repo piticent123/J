@@ -4,7 +4,7 @@ import intermediary.Program;
 import intermediary.Variable;
 
 public class LCompiler {
-	private String[] registers = new String[]{};
+	private Registers registers = new Registers();
 
 	public String Compile(Program p) {
 		return String.join("\n", "",
@@ -13,15 +13,12 @@ public class LCompiler {
 //			"section .bss",
 				".text",
 				"    .globl main",
-				"    main:",
-				"		 pushq %rbp",
-				"        movq %rsp, %rbp",
-				"        leaq .data(%rip), %rdi",
-				"        call puts@PLT",
-				"        movq $0, %rax",
-				"        popq %rbp",
-				"        ret",
-				"");
+				Assembly.function("main", String.join("\n", "",
+						"        movq %rsp, %rbp",
+						"        leaq .data(%rip), %rdi",
+						"        call puts@PLT",
+						Assembly.ret("$0")))
+		);
 	}
 
 	private String getDataType(Variable variable) {

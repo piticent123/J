@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80dd57ec-1753-4984-a41c-32877944b74b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cli/FlagList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cli/Pipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/Assembly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/Registers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/ExecutionPipelines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/Flag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/J.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/compiler/Executor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J/parser/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J/parser/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExecutionPipelines.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/Flags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/J.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/LCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/LCompiler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,47 +25,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/J.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cli/Pipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cli/Executor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cli/Flags.java">
+        <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="202">
+              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/Registers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="method#nextFreeRegister#0;class#Registers#0" />
+                <element signature="e#1040#1052#1" />
+                <element signature="method#malloc#0;class#Registers#0" />
+                <element signature="e#1044#1055#1" />
+                <element signature="method#free#0;class#Registers#0" />
+                <element signature="e#1600#1662#1" />
+                <element signature="e#1652#1676#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/Assembly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="method#ret#0;class#Assembly#0" />
+                <element signature="method#call#0;class#Assembly#0" />
+                <element signature="e#606#659#1" />
               </folding>
             </state>
           </provider>
@@ -84,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cli/FlagList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +154,11 @@
     <findStrings>
       <find>string</find>
       <find />
+      <find>String</find>
     </findStrings>
+    <replaceStrings>
+      <replace>char</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -180,16 +180,18 @@
         <option value="$PROJECT_DIR$/src/intermediary/Compiler.java" />
         <option value="$PROJECT_DIR$/src/intermediary/HCompiler.java" />
         <option value="$PROJECT_DIR$/src/intermediary/Variable.java" />
-        <option value="$PROJECT_DIR$/src/compiler/LCompiler.java" />
         <option value="$PROJECT_DIR$/src/compiler/Executor.java" />
         <option value="$PROJECT_DIR$/src/Flag.java" />
         <option value="$PROJECT_DIR$/src/cli/J.java" />
         <option value="$PROJECT_DIR$/src/parser/Token.java" />
         <option value="$PROJECT_DIR$/src/cli/Pipelines.java" />
-        <option value="$PROJECT_DIR$/src/cli/Pipeline.java" />
         <option value="$PROJECT_DIR$/src/cli/FlagList.java" />
         <option value="$PROJECT_DIR$/src/J.java" />
         <option value="$PROJECT_DIR$/src/cli/Flags.java" />
+        <option value="$PROJECT_DIR$/src/cli/Pipeline.java" />
+        <option value="$PROJECT_DIR$/src/compiler/Registers.java" />
+        <option value="$PROJECT_DIR$/src/compiler/Assembly.java" />
+        <option value="$PROJECT_DIR$/src/compiler/LCompiler.java" />
       </list>
     </option>
   </component>
@@ -200,10 +202,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="353" />
-    <option name="y" value="-27" />
+    <option name="x" value="636" />
+    <option name="y" value="-21" />
     <option name="width" value="974" />
-    <option name="height" value="755" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,10 +233,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cli" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
@@ -249,7 +257,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -310,7 +318,8 @@
       <workItem from="1562193251618" duration="568000" />
       <workItem from="1562193840003" duration="7736000" />
       <workItem from="1562269726545" duration="2432000" />
-      <workItem from="1562292624299" duration="1054000" />
+      <workItem from="1562292624299" duration="1107000" />
+      <workItem from="1562361879492" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="assembly works, hallelujah">
       <created>1562264142502</created>
@@ -326,17 +335,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562271787110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="the cli is separated better">
+      <created>1562293725093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562293725093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42177000" />
+    <option name="totallyTimeSpent" value="46142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1541769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15663391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +375,7 @@
       <window_info anchor="bottom" id="GraphQL" order="12" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" visible="true" weight="0.32608697" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32608697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,7 +436,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="assembly works, hallelujah" />
     <MESSAGE value="executing cleans up the temp files" />
-    <option name="LAST_COMMIT_MESSAGE" value="executing cleans up the temp files" />
+    <MESSAGE value="the cli is separated better" />
+    <option name="LAST_COMMIT_MESSAGE" value="the cli is separated better" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,10 +554,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExecutionPipelines.java" />
-    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
+    <entry file="jar://$PROJECT_DIR$/lombok.jar!/lombok/AccessLevel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="224">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lombok.jar!/lombok/experimental/FieldDefaults.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -551,6 +585,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cli/Flags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cli/FlagList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -583,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/tokens/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -597,58 +641,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lombok.jar!/lombok/AccessLevel.class">
+    <entry file="file://$PROJECT_DIR$/src/parser/tokens/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lombok.jar!/lombok/experimental/FieldDefaults.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="56">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cli/Pipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cli/FlagList.java">
+    <entry file="file://$PROJECT_DIR$/src/compiler/Registers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="224">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#nextFreeRegister#0;class#Registers#0" />
+            <element signature="e#1040#1052#1" />
+            <element signature="method#malloc#0;class#Registers#0" />
+            <element signature="e#1044#1055#1" />
+            <element signature="method#free#0;class#Registers#0" />
+            <element signature="e#1600#1662#1" />
+            <element signature="e#1652#1676#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/J.java">
+    <entry file="file://$PROJECT_DIR$/src/compiler/Assembly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="224">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#ret#0;class#Assembly#0" />
+            <element signature="method#call#0;class#Assembly#0" />
+            <element signature="e#606#659#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cli/Flags.java">
+    <entry file="file://$PROJECT_DIR$/src/compiler/LCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="202">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
