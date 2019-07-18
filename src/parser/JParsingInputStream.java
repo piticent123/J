@@ -13,6 +13,9 @@ class JParsingInputStream {
 	InputStream inputStream;
 	int newLine = Character.codePointAt("\n", 0);
 
+	int currentCharacter;
+	int nextCharacter;
+
 	/**
 	 * Reads one line from the input stream. *Does* include the newline character
 	 *
@@ -29,5 +32,9 @@ class JParsingInputStream {
 		}
 
 		return builder.toString();
+	}
+
+	String peak() {
+		return inputStream
 	}
 }

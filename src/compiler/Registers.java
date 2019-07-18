@@ -6,8 +6,8 @@ import java.util.stream.IntStream;
 class Registers {
 	private String[] variableRegisters = new String[]{"%rbx", "%rdi", "%rsi", "%rsp", "%r10", "%r11", "%r12", "%r13", "%r14", "%r15"};
 	private int freeRegisters = 0;
-	public static String[] parameterRegisters = new String[]{"%rdi", "%rsi", "%rdx", "%rcx", "%r8", "%r9"};
-	public static String returnRegister = "%rax";
+	static String[] parameterRegisters = new String[]{"%rdi", "%rsi", "%rdx", "%rcx", "%r8", "%r9"};
+	static String returnRegister = "%rax";
 
 	private int nextFreeRegister() {
 		for (int i = 0; i < variableRegisters.length; i++) {

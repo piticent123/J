@@ -8,15 +8,15 @@ import java.util.List;
 public class Parser {
 	public List<Token> Parse(InputStream inputStream) {
 		List<Token> program = new ArrayList<>();
+		Token t;
 		JParsingInputStream parsingStream = new JParsingInputStream(inputStream);
 
-		try {
-			String x = parsingStream.readLine();
-			System.out.println(x);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		while ((t = getNextToken(parsingStream)) != null) program.add(t);
 
 		return program;
+	}
+
+	private Token getNextToken(JParsingInputStream stream) {
+
 	}
 }

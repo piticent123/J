@@ -1,4 +1,9 @@
 package parser.tokens;
 
-public class Operator {
+import parser.Token;
+
+public class Operator extends Token<Letters> {
+	public Operator(Letters value) {
+		super(value);
+	}
 }

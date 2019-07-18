@@ -7,13 +7,13 @@ import java.util.stream.IntStream;
 
 @UtilityClass
 public class Assembly {
-	public String ret(String val) {
+	String ret(String val) {
 		return String.join("\n", "",
 				String.format("movq %s %s", val, Registers.returnRegister),
 				"ret");
 	}
 
-	public String function(String name, String body) {
+	String function(String name, String body) {
 		return String.join("\n", "",
 				String.format("    %s:", name),
 				"    pushq %rbp",
