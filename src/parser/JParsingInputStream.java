@@ -1,6 +1,7 @@
 package parser;
 
 import lombok.AccessLevel;
+import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
@@ -8,9 +9,9 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @RequiredArgsConstructor
-@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
+@FieldDefaults(level = AccessLevel.PRIVATE)
 class JParsingInputStream {
-	InputStream inputStream;
+	@NonNull InputStream inputStream;
 	int newLine = Character.codePointAt("\n", 0);
 
 	int currentCharacter;
@@ -35,6 +36,6 @@ class JParsingInputStream {
 	}
 
 	String peak() {
-		return inputStream
+		return String.valueOf(nextCharacter);
 	}
 }
